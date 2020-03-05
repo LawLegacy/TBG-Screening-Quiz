@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Linq;
+using System.Collections;
 
 namespace BerndtUtility
 {
@@ -88,7 +89,7 @@ namespace BerndtUtility
         private static void WriteToCSV(Dictionary<string, int> reportData, string outputFile)
         {
             // Sort values descending
-            var sortedDict = from entry in reportData orderby entry.Value descending select entry;
+            var sortedDict = reportData.OrderByDescending(x => x.Value).ThenByDescending(x => x.Key, new IPComparer());
 
             String csv = String.Join(
                 Environment.NewLine,
@@ -96,6 +97,14 @@ namespace BerndtUtility
             );
             
             File.WriteAllText(outputFile, csv);
+        }
+    }
+
+    public class IPComparer : IComparer<string>
+    {
+        public int Compare(string a, string b)
+        {
+            return Enumerable.Zip(a.ToString().Split('.'), b.ToString().Split('.'), (x, y) => int.Parse(x).CompareTo(int.Parse(y))).FirstOrDefault(i => i != 0);
         }
     }
 }
