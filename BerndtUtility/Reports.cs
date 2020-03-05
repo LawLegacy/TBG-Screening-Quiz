@@ -89,7 +89,7 @@ namespace BerndtUtility
         {
             String csv = String.Join(
                 Environment.NewLine,
-                reportData.Select(d => $"{d.Key},{d.Value}")
+                reportData.Select(d => $"{d.Value},{d.Key}")
             );
             
             File.WriteAllText(outputFile, csv);
