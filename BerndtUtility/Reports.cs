@@ -87,9 +87,12 @@ namespace BerndtUtility
 
         private static void WriteToCSV(Dictionary<string, int> reportData, string outputFile)
         {
+            // Sort values descending
+            var sortedDict = from entry in reportData orderby entry.Value descending select entry;
+
             String csv = String.Join(
                 Environment.NewLine,
-                reportData.Select(d => $"{d.Value},{d.Key}")
+                sortedDict.Select(d => $"{d.Value},{d.Key}")
             );
             
             File.WriteAllText(outputFile, csv);
