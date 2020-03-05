@@ -1,0 +1,9 @@
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\bin\Debug\TBG-PatLaw-Screening-Quiz.exe.config
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\bin\Debug\TBG-PatLaw-Screening-Quiz.exe
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\bin\Debug\TBG-PatLaw-Screening-Quiz.pdb
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\bin\Debug\BerndtUtility.dll
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\bin\Debug\BerndtUtility.pdb
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\obj\Debug\TBG-PatLaw-Screening-Quiz.csprojAssemblyReference.cache
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\obj\Debug\TBG-PatLaw-Screening-Quiz.csproj.CopyComplete
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\obj\Debug\TBG-PatLaw-Screening-Quiz.exe
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\TBG-PatLaw-Screening-Quiz\obj\Debug\TBG-PatLaw-Screening-Quiz.pdb

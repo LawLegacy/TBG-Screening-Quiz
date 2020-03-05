@@ -1,0 +1,8 @@
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\bin\Debug\netstandard2.0\BerndtUtility.deps.json
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\bin\Debug\netstandard2.0\BerndtUtility.dll
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\obj\Debug\netstandard2.0\BerndtUtility.csprojAssemblyReference.cache
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\obj\Debug\netstandard2.0\BerndtUtility.AssemblyInfoInputs.cache
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\obj\Debug\netstandard2.0\BerndtUtility.AssemblyInfo.cs
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\bin\Debug\netstandard2.0\BerndtUtility.pdb
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\obj\Debug\netstandard2.0\BerndtUtility.dll
+C:\Users\pat\source\repos\TBG-Developer-Screening-Quiz\BerndtUtility\obj\Debug\netstandard2.0\BerndtUtility.pdb
