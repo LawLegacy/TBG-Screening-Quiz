@@ -53,8 +53,8 @@ namespace BerndtUtility
                 if (lineData[0].Trim().StartsWith("#"))
                     continue;
 
-                // Check for GET request
-                if (lineData[8].ToUpper() == "GET")
+                // Check for GET request and from standard HTTP port 80
+                if (lineData[7] == "80" && lineData[8].ToUpper() == "GET")
                 {
                     // Exclude requests from IP's beginning with '207.114'
                     if (!lineData[2].StartsWith("207.114"))
